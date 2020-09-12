@@ -1,0 +1,20 @@
+.projetos li {
+    display: inline-block;
+    width: 320px;
+    margin: 10px;
+    border: 10px solid black;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+.projetos a {
+    color: #851944
+}
+
+ul img,
+ul p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
