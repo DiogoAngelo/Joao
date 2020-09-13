@@ -1,8 +1,8 @@
 .projetos li {
     display: inline-block;
-    width: 320px;
-    margin: 10px;
-    border: 10px solid black;
+    width: 20rem;
+    margin: .6rem;
+    border: .6rem solid black;
     padding: 1rem 0;
     box-sizing: border-box;
 }

@@ -1,0 +1,33 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 8rem;
+}
+
+legend,
+label {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #444
+}
+
+#outro-assunto {
+    width: 12.7rem;
+}
+
+textarea {
+    display: block;
+    margin-top: 20px;
+}
+
+#enviar {
+    margin-top: 1rem;
+    width: 10rem;
+    padding: .7rem;
+    font-weight: bold;
+}
+
+#enviar:active {
+    transform: scale(1.05);
+}
