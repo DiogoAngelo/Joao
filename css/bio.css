@@ -56,6 +56,15 @@ blockquote {
     padding: 1.5rem 1rem;
     background-color: #e2e3de;
     margin-bottom: 1rem;
+    position: relative;
+}
+
+blockquote p:before {
+    content: '“';
+    font-size: 10rem;
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 3.4rem;
 }
 
 .fiat {
@@ -63,15 +72,33 @@ blockquote {
     margin-left: 2rem;
 }
 
+.fiat:hover,
+.fiat:focus {
+    transform: scale(1.2) rotate(5deg);
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.8);
+    transition: .3s;
+}
+
 .petrobras {
     float: left;
     margin-right: 2rem;
+}
+
+.petrobras:hover,
+.petrobras:focus {
+    transform: scale(1.2) rotate(-5deg);
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.8);
+    transition: .3s;
 }
 
 p {
     margin-bottom: 1rem;
     text-align: justify;
     font-size: 1.2rem;
+}
+
+section>p:first-letter {
+    font-size: 2rem;
 }
 
 em,

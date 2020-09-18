@@ -1,0 +1,290 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+}
+
+header {
+    background-color: #851944;
+    border-bottom: .6rem solid #000;
+    position: relative;
+}
+
+.box {
+    width: 940px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.eu-foto {
+    border-radius: 50%;
+    box-shadow: 0 0 15px #000;
+    width: 12.5rem;
+}
+
+h1,
+h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px #000;
+}
+
+h3 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.palavra-home {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #D5447E;
+    position: absolute;
+}
+
+.palavras-home {
+    perspective: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.eficiencia {
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3.5px);
+}
+
+.boas-praticas {
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(1px);
+}
+
+.codigo-limpo {
+    top: 47%;
+    left: 23%;
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(2px);
+}
+
+.css3 {
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(2px);
+}
+
+.html5 {
+    top: 30%;
+    left: 67%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+}
+
+.javascript {
+    top: 15%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px);
+}
+
+.acessibilidade {
+    top: 30%;
+    left: 32%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2.6px);
+}
+
+.responsivo {
+    top: 40%;
+    left: 39%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+}
+
+.otimizacoes {
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
+}
+
+.agilidade {
+    top: 75%;
+    left: 32%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
+}
+
+.design {
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px);
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 7rem 0;
+    border-bottom: 10px solid #000;
+}
+
+.main-container p {
+    color: #888;
+    font-size: 1.8rem;
+    line-height: 8rem;
+}
+
+.linha-cima {
+    margin-left: 12rem;
+}
+
+.linha-baixo {
+    margin-left: 32rem;
+}
+
+.ola {
+    font-size: 5rem;
+}
+
+.nome {
+    font-size: 3.5rem;
+    color: #000;
+}
+
+.brega {
+    display: inline-block;
+    font-size: 5.2rem;
+    color: #851944;
+    transform: rotate(-10deg) skew(-10deg);
+}
+
+.mais {
+    margin: 3rem auto;
+    text-align: center;
+    background-color: #851944;
+    padding: 1.2rem 3rem;
+    width: 25rem;
+    border: 5px solid #000;
+}
+
+.mais a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.mais:hover {
+    background-color: #ececec;
+}
+
+.mais:hover a {
+    color: #851944;
+}
+
+.trabalhos {
+    text-align: center;
+    padding: 5rem 0;
+    background-color: #34123d;
+    background-image: linear-gradient(135deg, transparent 14px, rgba(0, 0, 0, 0.2)14px, transparent 15px);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+
+.imagem-trabalhos ul {
+    width: 90%;
+    display: inline-block;
+    margin: 3rem 0;
+}
+
+.imagem-trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+
+.imagem-trabalhos img {
+    width: 100%;
+}
+
+.blog {
+    background-image: linear-gradient(-135deg, transparent 14px, rgba(0, 0, 0, 0.2) 14px, transparent 15px);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    background-color: #acacac;
+    border-top: 10px solid #000;
+    padding: 5rem;
+    position: relative;
+}
+
+.blog ul {
+    margin-top: 2rem;
+}
+
+.blog li {
+    line-height: 2.5rem;
+    width: 220px;
+}
+
+.blog ul a {
+    color: #333;
+}
+
+.line-extend:hover {
+    background-color: #f2fffc;
+    width: 90.6%;
+    padding: 0 20px;
+}
+
+.line-extend:hover .texto-design {
+    display: block;
+}
+
+.line-extend a:hover {
+    color: #851944;
+}
+
+.texto-design {
+    background-color: #f2fffc;
+    color: #333;
+    width: 50rem;
+    height: 5rem;
+    padding: 1.5rem;
+    position: absolute;
+    top: 6.5rem;
+    right: 10rem;
+    display: none;
+}
+
+.texto-2 {
+    top: 9rem;
+}
+
+.texto-3 {
+    top: 11rem;
+}
+
+.vamos-conversar {
+    background-color: #000;
+    padding: 3rem;
+    border-top: 10px solid #851944;
+}
+
+.vamos-conversar p {
+    color: #fff;
+}
+
+.vamos-conversar a {
+    color: #f99;
+}
+
+.telefone {
+    color: #f99;
+}
+
+.vamos {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 1rem 0;
+}
