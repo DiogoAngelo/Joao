@@ -175,3 +175,29 @@ nav a {
     bottom: 0;
     width: 100%;
 }
+
+.habilidades {
+    border-collapse: separate;
+    border-spacing: .25rem;
+    margin: 0 auto;
+}
+
+.habilidades th,
+.habilidades td {
+    border: 1px solid #999;
+    padding: 1rem;
+}
+
+.habilidades th {
+    font-weight: bold;
+    color: #fff;
+    background-color: #851944;
+}
+
+.habilidades thead th {
+    background-color: #3C1D3D;
+}
+
+.habilidades td {
+    background-color: #eee;
+}

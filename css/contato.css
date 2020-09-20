@@ -20,9 +20,42 @@ fieldset>fieldset {
     display: inline;
 }
 
+fieldset {
+    position: relative;
+}
+
 input:focus,
 textarea:focus {
     background-color: #ffd;
+}
+
+.com-icone {
+    position: relative;
+}
+
+.com-icone:after {
+    content: "";
+    background-image: url('../img/usuario.png');
+    background-size: 50% 50%;
+    width: 2rem;
+    height: 2rem;
+    background-color: #8C1D3D;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 115%;
+    left: 0;
+    border: 1px solid #000;
+}
+
+.com-icone+input {
+    width: calc(100% - 2rem);
+    position: relative;
+    left: 2rem;
+}
+
+label[for="email"]:after {
+    background-image: url('../img/email.png');
 }
 
 input[value="outro"]~input {
